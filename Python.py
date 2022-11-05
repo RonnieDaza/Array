@@ -1,4 +1,4 @@
-list1 = [1, 2, 5, 7, 13, 19, 50, 100, 300, 200]
+list1 = [1, 2, 5, 7, 13, 19, 50, 100, 200, 300]
 print("Array: ", list1)
 
 print("Menu: ")
@@ -27,7 +27,9 @@ elif choice == 4:
     print("This is the new array: ", list1)
 elif choice == 5:
     list1.sort()
-    print(list1)
-
+    print("The list has been arranged in ascending order: ", list1)
+elif choice == 6:
+    list1.reverse()
+    print("The list has been arranged in descending order: ", list1)  
 
 
