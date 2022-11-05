@@ -1,4 +1,4 @@
-list1 = [1, 2, 5, 7, 13, 19, 50, 300, 200, 100]
+list1 = [1, 2, 5, 7, 13, 19, 50, 100, 300, 200]
 print("Array: ", list1)
 
 print("Menu: ")
@@ -16,8 +16,12 @@ if choice == 1:
     print("The element has been added.")
     print("This is the new array: ", list1)
 elif choice == 2:
-    list1.insert(int(input("Enter the element you want to insert: ")))
+    list1.insert(3, 25)
     print(list1)
+elif choice == 3:
+    list1[2:5] = 3, 5, 9
+    print(list1)
+
 
 
 
