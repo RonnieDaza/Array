@@ -16,7 +16,7 @@ if choice == 1:
     print("The element has been added.")
     print("This is the new array: ", list1)
 elif choice == 2:
-    list1.insert(3, 25)
+    list1.insert(6, 25)
     print(list1)
 elif choice == 3:
     list1[2:5] = 3, 5, 9
@@ -31,5 +31,3 @@ elif choice == 5:
 elif choice == 6:
     list1.reverse()
     print("The list has been arranged in descending order: ", list1)  
-
-
