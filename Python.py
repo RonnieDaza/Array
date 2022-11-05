@@ -25,7 +25,9 @@ elif choice == 4:
     list1.remove(int(input("Enter the element you want to remove: ")))
     print("The element has been removed.")
     print("This is the new array: ", list1)
-
+elif choice == 5:
+    list1.sort()
+    print(list1)
 
 
 
