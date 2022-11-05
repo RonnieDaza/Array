@@ -16,11 +16,16 @@ if choice == 1:
     print("The element has been added.")
     print("This is the new array: ", list1)
 elif choice == 2:
-    list1.insert(6, 25)
-    print(list1)
+    number1 = int(input("Enter the number you want to insert: "))
+    number2 = int(input("Enter the location you want to insert it: "))
+    add1 = list1.insert(number2, number1)
+    print("This is the new array: ", list1)
 elif choice == 3:
-    list1[2:5] = 3, 5, 9
-    print(list1)
+    number3 = int(input("Enter the index you want to modify: "))
+    number4 = int(input("Enter the number you want to add: "))
+    add2 = list1.pop(number3)
+    list1.insert(number3, number4)
+    print("This is the new array: ", list1)
 elif choice == 4:
     list1.remove(int(input("Enter the element you want to remove: ")))
     print("The element has been removed.")
