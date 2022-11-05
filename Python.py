@@ -21,6 +21,10 @@ elif choice == 2:
 elif choice == 3:
     list1[2:5] = 3, 5, 9
     print(list1)
+elif choice == 4:
+    list1.remove(int(input("Enter the element you want to remove: ")))
+    print("The element has been removed.")
+    print("This is the new array: ", list1)
 
 
 
